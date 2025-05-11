@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"> 
 <!-- es un sitemap simple, debemos de indicarlo siempre de esta forma, añadiendo al final la version -->
   <url>
     <loc>https://master-fatima-fajardo.test/categorias/copywriting</loc> 
@@ -16,5 +16,16 @@
   <url>
     <loc>https://master-fatima-fajardo.test/blog/como-hacer-una-auditoria-seo</loc> 
     <lastmod>2025-05-11</lastmod>
+    <image:image>
+      <image:loc>https://master-fatima-fajardo.test/imagenes/realizacion-auditoria-seo.png</image:loc>
+      <!--  estos son las dos etiquetas que se deben de usar para crear un sitemap de imagenes, el resto están depreciadas-->
+    </image:image>
+  </url>
+  <url>
+    <loc>https://master-fatima-fajardo.test/blog/que-es-el-marketing-digital</loc> 
+    <lastmod>2025-05-11</lastmod>
+    <image:image>
+      <image:loc>https://master-fatima-fajardo.test/imagenes/marketing-digital.jpg</image:loc>
+    </image:image>
   </url>
 </urlset>
