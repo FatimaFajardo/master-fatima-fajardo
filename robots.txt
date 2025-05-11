@@ -1,0 +1,18 @@
+# Fátima Fajardo Novo
+User-agent: Yandex
+Disallow: /
+
+User-agent: Adsbot
+Allow: *blackfriday
+User-agent: GoogleBot
+Disallow: *blackfriday
+
+User-agent: * 
+Allow: /scripts/*.js
+Allow: /scripts/*.json
+Allow: /nomeves/cartagena/
+Allow: /nomeves/sources/*.css
+Disallow: /nomeves/
+Disallow: /scripts/*.js?prescindible
+Sitemap: https://master-fatima-fajardo.test/sitemap.xml
+
