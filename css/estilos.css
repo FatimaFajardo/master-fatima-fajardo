@@ -162,8 +162,8 @@ p.article-text {
 footer.footer {
     background-color: var(--black);
     color: var(--white);
-    padding-bottom: 3%;
-    padding-top: 3%;}
+    padding-bottom: 0%;
+    padding-top: 0%;}
 .photos {
     display: flex;
     flex-wrap: nowrap;

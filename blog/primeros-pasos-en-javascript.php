@@ -22,7 +22,7 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
                     <img src="/imagenes/marketing-digital.jpg" loading="lazy" alt="marketing-digital" width="600" height="400">
                     <div class="conclusion">
                     </div>
+
                     <?php newarticle();?>
-        </section>
-<?php include $_SERVER["DOCUMENT_ROOT"]. "/php/footer.php";
-?>
+                    
+<?php include $_SERVER["DOCUMENT_ROOT"]. "/php/footer.php";?>

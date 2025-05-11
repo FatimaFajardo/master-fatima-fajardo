@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1 xmlns:video="http://www.google.com/schemas/sitemap-video/1.1""> 
-<!-- es un sitemap simple, debemos de indicarlo siempre de esta forma, añadiendo al final la version -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"> 
+
   <url>
     <loc>https://master-fatima-fajardo.test/categorias/copywriting</loc> 
     <lastmod>2025-05-11</lastmod>
@@ -38,4 +38,17 @@
       <image:loc>https://master-fatima-fajardo.test/imagenes/marketing-digital.jpg</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>https://master-fatima-fajardo.test/blog/ia-overviews</loc> 
+      <news:news>
+        <news:publication>
+          <news:name>Fátima Fajardo</news:name>
+          <news:language>es</news:language>
+        </news:publication>
+        <news:publication_date>2025-05-11</news:publication_date>
+        <news:title>¿Qué es el marketing digital?</news:title>
+      </news:news>
+  </url>
+
+
 </urlset>
