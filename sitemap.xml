@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1 xmlns:video="http://www.google.com/schemas/sitemap-video/1.1""> 
 <!-- es un sitemap simple, debemos de indicarlo siempre de esta forma, añadiendo al final la version -->
   <url>
     <loc>https://master-fatima-fajardo.test/categorias/copywriting</loc> 
@@ -20,6 +20,16 @@
       <image:loc>https://master-fatima-fajardo.test/imagenes/realizacion-auditoria-seo.png</image:loc>
       <!--  estos son las dos etiquetas que se deben de usar para crear un sitemap de imagenes, el resto están depreciadas-->
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://master-fatima-fajardo.test/imagenes/realizacion-auditoria-seo.png</video:thumbnail_loc>
+      <video:title>Realización de auditoría SEO</video:title>
+      <video:description>Aprende a realizar una auditoría SEO completa para tu sitio web</video:description>
+      <video:player_loc>https://www.youtube.com/embed/BINMV5hjjYw?si=8zggsG_COmi4leBx</video:player_loc>
+      <Video:duration> <!--debe estar entre 1 y 2880 segundos, nunca mas de 8 horas -->1995</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:platform relationship="allow"> web mobile tv </video:platform>
+      <video:publisher>Semrush</video:publisher>
+    </video:video>
   </url>
   <url>
     <loc>https://master-fatima-fajardo.test/blog/que-es-el-marketing-digital</loc> 
