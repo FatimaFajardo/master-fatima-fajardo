@@ -17,3 +17,5 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+
+RedirectMatch 404 ^/wp-sitemap.xml$
