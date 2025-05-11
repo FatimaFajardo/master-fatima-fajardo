@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<!-- es un sitemap simple, debemos de indicarlo siempre de esta forma, añadiendo al final la version -->
+  <url>
+    <loc>https://master-fatima-fajardo.test/categorias/copywriting</loc> 
+    <lastmod>2025-05-11</lastmod>
+  </url>
+  <url>
+    <loc>https://master-fatima-fajardo.test/otros-recursos</loc> 
+    <lastmod>2025-05-11</lastmod>
+  </url>
+  <url>
+    <loc>https://master-fatima-fajardo.test/guias</loc> 
+    <lastmod>2025-05-11</lastmod>
+  </url>
+  <url>
+    <loc>https://master-fatima-fajardo.test/blog/como-hacer-una-auditoria-seo</loc> 
+    <lastmod>2025-05-11</lastmod>
+  </url>
+</urlset>
